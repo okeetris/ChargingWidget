@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1648120490975" clover="3.2.0">
+  <project timestamp="1648120490975" name="All files">
+    <metrics statements="33" coveredstatements="25" conditionals="14" coveredconditionals="8" methods="11" coveredmethods="7" elements="58" coveredelements="40" complexity="0" loc="33" ncloc="33" packages="5" files="8" classes="8"/>
+    <package name="components.ChargePointRow">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="ChargePointRow.style.tsx" path="/Users/tristanokeefe/BP folder/bp-pulse-coding-exercise/BPWidget/components/ChargePointRow/ChargePointRow.style.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="ChargePointRow.tsx" path="/Users/tristanokeefe/BP folder/bp-pulse-coding-exercise/BPWidget/components/ChargePointRow/ChargePointRow.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.ChargePointWidget">
+      <metrics statements="12" coveredstatements="7" conditionals="6" coveredconditionals="3" methods="4" coveredmethods="1"/>
+      <file name="ChargePointWidget.style.tsx" path="/Users/tristanokeefe/BP folder/bp-pulse-coding-exercise/BPWidget/components/ChargePointWidget/ChargePointWidget.style.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+      <file name="ChargePointWidget.tsx" path="/Users/tristanokeefe/BP folder/bp-pulse-coding-exercise/BPWidget/components/ChargePointWidget/ChargePointWidget.tsx">
+        <metrics statements="11" coveredstatements="6" conditionals="6" coveredconditionals="3" methods="4" coveredmethods="1"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="dataModel">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="queries.ts" path="/Users/tristanokeefe/BP folder/bp-pulse-coding-exercise/BPWidget/dataModel/queries.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="helpers">
+      <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+      <file name="widgetHelper.tsx" path="/Users/tristanokeefe/BP folder/bp-pulse-coding-exercise/BPWidget/helpers/widgetHelper.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="screens.MainScreen">
+      <metrics statements="5" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="MainScreen.style.tsx" path="/Users/tristanokeefe/BP folder/bp-pulse-coding-exercise/BPWidget/screens/MainScreen/MainScreen.style.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+      <file name="MainScreen.tsx" path="/Users/tristanokeefe/BP folder/bp-pulse-coding-exercise/BPWidget/screens/MainScreen/MainScreen.tsx">
+        <metrics statements="4" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -1,0 +1,9 @@
+# Ignore artifacts:
+dist
+coverage
+README.md
+CHANGELOG.md
+allure-report 
+reports
+__generated__
+.expo
