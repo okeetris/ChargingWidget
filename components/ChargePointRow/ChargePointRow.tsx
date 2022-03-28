@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import { View, Text } from 'react-native';
 import DirectionsIcon from '@mui/icons-material/Directions';

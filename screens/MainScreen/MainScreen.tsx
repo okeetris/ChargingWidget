@@ -3,14 +3,15 @@ import { View, Text, ScrollView, SafeAreaView } from 'react-native';
 import ChargePointWidget from '../../components/ChargePointWidget/ChargePointWidget';
 import { useQuery } from '@apollo/client';
 import { GET_ALL_CHARGE_POINTS } from '../../dataModel/queries';
-import AppLoading from 'expo-app-loading';
 import { styles } from './MainScreen.style';
 
 const MainScreen = () => {
   const { data, loading } = useQuery(GET_ALL_CHARGE_POINTS);
+
   if (loading) {
     return <Text>Loading</Text>;
   }
+
   if (data) {
     return (
       <View style={styles.pageContainer}>

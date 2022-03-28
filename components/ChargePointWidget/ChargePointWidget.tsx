@@ -48,7 +48,7 @@ const ChargePointWidget = (data) => {
 
   return (
     <View>
-      <Text style={{ color: 'red', fontWeight: 'bold' }}>TEST</Text>
+      <Text style={{ color: 'red', fontWeight: 'bold' }}>NO DATA</Text>
     </View>
   );
 };
