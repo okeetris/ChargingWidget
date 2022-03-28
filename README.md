@@ -2,7 +2,7 @@
 
 Using React Native, Typescript
 
-##Running
+## Running
 
 To run the app:
 `yarn start`
